@@ -25,4 +25,4 @@ if (savedUsername === null) {
   greeting.innerText = `Hello ${savedUsername}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
-console.log(savedUsername);
+// console.log(savedUsername);

@@ -14,7 +14,7 @@ function onGeoSuccess(position) {
       const temp = document.querySelector(".weather .weather__temp");
       city.innerText = data.name;
       weather.innerText = data.weather[0].main;
-      temp.innerText = data.main.temp;
+      temp.innerText = data.main.temp + "°C";
     });
 }
 function onGeoError() {
